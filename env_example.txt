@@ -1,0 +1,26 @@
+# Telegram Bot Token (получить у @BotFather)
+TELEGRAM_TOKEN=your_bot_token_here
+
+# Путь к базе данных новостей
+DATABASE_PATH=data/news.json
+
+# Путь к базе данных пользователей
+USERS_PATH=data/users.json
+
+# RSS источники новостей (разделенные запятыми)
+SOURCES=https://feeds.reuters.com/reuters/businessNews,https://feeds.bloomberg.com/markets/news.rss,https://feeds.finance.yahoo.com/rss/2.0/headline
+
+# Часовой пояс для отправки дайджестов
+TIMEZONE=Europe/Moscow
+
+# Время отправки ежедневного дайджеста (формат: HH:MM)
+DAILY_TIME=09:00
+
+# Количество новостей в дайджесте
+DIGEST_SIZE=5
+
+# Ключевые слова для фильтрации (разделенные запятыми)
+FILTER_KEYWORDS=криптовалюта,IPO,ICO
+
+# Максимальное количество новостей для хранения
+MAX_NEWS_COUNT=1000
